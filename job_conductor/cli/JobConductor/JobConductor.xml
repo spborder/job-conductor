@@ -17,6 +17,13 @@
       <description>JSON formatted string containing list of dictionaries with job information.</description>
       <index>0</index>
     </string>
+    <integer>
+      <name>check_interval</name>
+      <label>Check Interval</label>
+      <description>Seconds between checks for job statuses</description>
+      <default>5</default>
+      <index>1</index>
+    </integer>
   </parameters>
   <parameters advanced="true">
     <label>Girder API URL and Key</label>
